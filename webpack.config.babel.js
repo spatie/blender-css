@@ -5,7 +5,7 @@ import path from 'path';
 
 module.exports = {
     entry: {
-        'back': './src/back.scss',
+        'blender': './src/blender.scss',
     },
     output: {
         path: path.resolve(process.cwd(), 'dist'),
@@ -20,11 +20,8 @@ module.exports = {
         ],
     },
     plugins: [
-        new ExtractTextPlugin('back.css')
+        new ExtractTextPlugin('blender.css')
     ],
-    sassLoader: {
-        includePaths: [path.resolve(process.cwd(), 'node_modules')],
-    },
     postcss() {
         return [ autoprefixer ];
     }
