@@ -1,0 +1,22 @@
+.status {
+    display: inline-block;
+    vertical-align: middle;
+
+    font-size: font-size(xxs);
+
+    &.-on {
+        color: color($green);
+    }
+
+    &.-off {
+        color: color($gray);
+    }
+
+    &.-space-left {
+        margin-left: .5rem;
+    }
+
+    &.-space-right {
+        margin-right: .5rem;
+    }
+}
