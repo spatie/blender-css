@@ -36,8 +36,9 @@ h3 {
 
     p + &,
     ul + &,
-    ol + & {
-        margin-top: 2em; //margin-top after a text block
+    ol + &,
+    form + & {
+        margin-top: 4rem;
     }
 
     a {
@@ -55,6 +56,8 @@ h1 {
 h2 {
     @include font(sans, light);
     @include font-size(l);
+
+    margin-top: 4rem;
 
     text-transform: uppercase;
 }

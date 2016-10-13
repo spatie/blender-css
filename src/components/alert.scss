@@ -5,6 +5,7 @@
 .alerts--fixed {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     margin: 0;
     z-index: z-index(fixed);
@@ -17,7 +18,9 @@
     padding: 1em;
     z-index: z-index(above);
 
+    background: color($gray, lightest);
     border-left: 5px solid;
+    border-right: 0;
     border-radius: border-radius(s);
 
     //variations
@@ -34,32 +37,32 @@
     &.-invers {
         color: $white;
         background: rgba(color($blue, lightest) , .1);
-        border-color: $white;
+        border-left-color: $white;
     }
 
     &.-warning {
         color: color($orange);
         background: color($orange,lightest);
-        border-color: color($orange);
+        border-left-color: color($orange);
     }
 
     &.-danger,
     &.-error {
         color: color($red,dark);
         background: color($red, lightest);
-        border-color: color($red,dark);
+        border-left-color: color($red,dark);
     }
 
     &.-success {
         color: color($green, dark);
         background: color($green, lightest);
-        border-color: color($green, dark);
+        border-left-color: color($green, dark);
     }
 
     &.-info {
         color: color($blue);
         background: color($blue, lightest);
-        border-color: color($blue);
+        border-left-color: color($blue);
     }
 
     .form & {
@@ -69,7 +72,13 @@
         font-size: font-size(s);
     }
 
+    & + & {
+        margin-top: .25em;
+    }
+
     .alerts--fixed & {
+        margin-top: 0;
+
         border-left-width: 0;
         border-radius: 0;
 

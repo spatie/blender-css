@@ -49,11 +49,11 @@ button,
     }
 
     &.-warning {
-        background: color($orange);
+        background: color($orange, light);
     }
 
     &.-danger {
-        background: color($red, light);
+        background: color($red);
     }
 
     &.-gray {

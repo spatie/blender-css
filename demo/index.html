@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="blender-css demo">
+    <title>blender-css</title>
+    <link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../dist/blender.css">
+
+</head>
+<body>
+<div class="menu">
+    <div class="grid">
+        <div class="clearfix">
+            <nav class="menu__home">
+                <a class="menu__home__dashboard" href="#">
+                    Dashboard
+                </a>
+                <a class="menu__home__front" href="#">
+                    <span class="menu__home__front__protocol"><span
+                        class="fa fa-unlock"></span></span>
+                    <span class="menu__home__front__host">url.dev</span>
+                </a>
+            </nav>
+            <nav class="menu__user">
+                <ul>
+                    <li><a href="#"><span
+                        style="background-image: url('https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?d=mm&s=256')"
+                        class="avatar -small"></span><span class=":response-desktop-only">someone@spatie.be</span></a>
+                    </li>
+                    <li>
+                        <form id="logout-form" action="#" method="POST">
+                            <button type=submit title="log out" class="menu__log-out">
+                                <span class="fa fa-power-off"></span>
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="menu__main">
+            <ul data-menu-groups class="menu__groups">
+                <li data-menu-group="Content" class="menu__group">
+                    <ul>
+                        <li class="menu__group__item"><a href="#">Articles</a></li>
+                        <li class="menu__group__item"><a href="#">News</a></li>
+                        <li class="menu__group__item"><a href="#">Team</a></li>
+                    </ul>
+                </li>
+                <li data-menu-group="Modules" class="menu__group">
+                    <ul>
+                        <li class="menu__group__item"><a href="#">Fragments</a></li>
+                        <li class="menu__group__item"><a href="#">Reactions</a></li>
+                        <li class="menu__group__item"><a href="#">Tags</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="grid">
+    <nav class="breadcrumbs"><ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li class="active">Breadcrumb demo</li>
+    </ol>
+    </nav>
+</div>
+<main class="main">
+    <section>
+        <div class="grid">
+
+            <h1>Blender-css</h1>
+            <p>
+                Examples of common elements in HTML (no scripts).
+            </p>
+
+            <h2>Alerts</h2>
+            <div class="alerts--fixed">
+                <div class="alert -success "><span class="fa fa-info-circle"></span> Fixed success message</div>
+            </div>
+            <p class="alerts">
+                <div class="alert -success "><span class="fa fa-info-circle"></span> Success message</div>
+                <div class="alert -info "><span class="fa fa-info-circle"></span> Info message</div>
+                <div class="alert -warning "><span class="fa fa-warning"></span> Warning</div>
+                <div class="alert -danger "><span class="fa fa-warning"></span> Error</div>
+                <div class="alert -small">Small neutral</div>
+            </p>
+
+            <h2>Buttons</h2>
+            <p>
+                <button class="button">Push it</button> <button class="button -small">Small</button>
+            </p>
+            <p>
+                <button class="button -warning">Warning</button> <button class="button -danger">Danger</button>
+            </p>
+            <p>
+                <button class="button -gray">Gray</button> <button class="button -blue">Blue</button>
+            </p>
+
+            <h2>Forms</h2>
+
+            <form class="form -stacked">
+                <fieldset>
+                    <legend>
+                        <div class="legend_lang">EN</div>
+                    </legend>
+                    <div class="form__group">
+                        <label class="-checkbox"><input class="form-control" checked="checked"
+                                                                             name="online" type="checkbox" value="1">
+                        Online</label>
+                    </div>
+                    <div class="form__group">
+                        <label for="text">Text</label>
+                        <input placeholder="Text" type="text" value="" id="text">
+                    </div>
+                    <div class="grid__row">
+                        <div class="grid__col -width-1/3">
+                            <div class="form__group">
+                                <label for="first_name">First Name</label>
+                                <input name="first_name" type="text" id="first_name">
+
+                            </div>
+                        </div>
+                        <div class="grid__col -width-2/3 -last">
+                            <div class="form__group">
+                                <label for="last_name">Last Name</label>
+                                <input name="last_name" type="text" id="last_name">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__group">
+                        <label>Select</label>
+                        <span class="select2 select2-container select2-container--default select2-container--below">
+                            <span class="selection">
+                                <span class="select2-selection select2-selection--single"><span
+                                    class="select2-selection__rendered"
+                                    title="Categorie 1">Select2</span>
+                                    <span class="select2-selection__arrow"><b></b>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="dropdown-wrapper"></span>
+                        </span>
+                    </div>
+                </fieldset>
+            </form>
+
+
+            <h2>Pagination</h2>
+            <ul class="pagination">
+                <li class="disabled"><span>«</span></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#" rel="next">»</a></li>
+            </ul>
+
+            <h2>Tabs</h2>
+            <p>
+                <nav class="tabs__menu">
+                    <ul>
+                        <li><a
+                            href="#content"><i class="fa fa-edit"></i> Inhoud</a>
+                        </li>
+                        <li>
+                            <a href="#settings"></i> Instellingen</a>
+                        </li>
+                        <li class="ui-tabs-active">
+                            <a href="#seo"><i class="fa fa-code"></i> SEO</a>
+                        </li>
+                    </ul>
+                </nav>
+            </p>
+
+            <h2>Datatable</h2>
+            <div class="dataTables_wrapper no-footer">
+                <div class="dataTables_filter">
+                    <label><input type="search" class="" placeholder="Filter..."></label>
+                </div>
+                <table class="dataTable no-footer">
+                <thead>
+                    <tr role="row">
+                        <th class="sorting_asc" rowspan="1" colspan="1">E-mail</th>
+                        <th class="sorting" rowspan="1" colspan="1">First Name</th>
+                        <th class="sorting" rowspan="1" colspan="1">Last Name</th>
+                        <th class="sorting_disabled" rowspan="1" colspan="1" ></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr role="row" class="odd">
+                        <td class="sorting_1">
+                            <a href="#">someone@spatie.be</a>
+                        </td>
+                        <td>
+                            First name
+                        </td>
+                        <td>
+                            Last Name
+                        </td>
+                        <td class="-right">
+                            <form method="POST" action="#">
+                                <button class="button -danger -small"><span class="fa fa-remove"></span></button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr role="row" class="odd">
+                        <td class="sorting_1">
+                            <a href="#">someone@spatie.be</a>
+                        </td>
+                        <td>
+                            First name
+                        </td>
+                        <td>
+                            Last Name
+                        </td>
+                        <td class="-right">
+                            <form method="POST" action="#">
+                                <button class="button -danger -small"><span class="fa fa-remove"></span></button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr role="row" class="odd">
+                        <td class="sorting_1">
+                            <a href="#">someone@spatie.be</a>
+                        </td>
+                        <td>
+                            First name
+                        </td>
+                        <td>
+                            Last Name
+                        </td>
+                        <td class="-right">
+                            <form method="POST" action="#">
+                                <button class="button -danger -small"><span class="fa fa-remove"></span></button>
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="dataTables_info">Aantal: 14</div>
+            </div>
+
+            <h2>Sortable table</h2>
+            <table class="-sortable">
+                <caption>News</caption>
+                <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody class="ui-sortable">
+                    <tr class="ui-sortable-handle">
+                        <td>
+                            <a href="#">
+                                Category 1
+                            </a>
+                        </td>
+                        <td class="-right">
+                            <form method="POST" action="#" >
+                                <button class="button -danger -small">
+                                    <span class="fa fa-remove"></span>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr class="ui-sortable-handle">
+                        <td>
+                            <a href="#">
+                                Category 2
+                            </a>
+                        </td>
+                        <td class="-right">
+                            <form method="POST" action="#" >
+                                <button class="button -danger -small">
+                                    <span class="fa fa-remove"></span>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr class="ui-sortable-handle">
+                        <td>
+                            <a href="#">
+                                Category 3
+                            </a>
+                        </td>
+                        <td class="-right">
+                            <form method="POST" action="#" >
+                                <button class="button -danger -small">
+                                    <span class="fa fa-remove"></span>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="grid">
+        <div class="footer__border">
+            <div class="footer__version">
+                <img src="images/svg/blender.svg" class="footer__brand"> <a
+                href="https://github.com/spatie-custom/blender-css" target="blender">Blender</a> – since 10/2016
+                <span class="footer__status -non-production">
+                    demo page for blender-css
+                </span>
+            </div>
+            <div class="footer__colofon">
+                <a href="https://spatie.be" target="blender">© MMXVI spatie.be</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
