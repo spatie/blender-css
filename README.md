@@ -1,4 +1,4 @@
-# blender.css
+# blender-css
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
@@ -7,17 +7,15 @@ These are the CSS files used by Blender CMS.
 ## Installation
 
 This package is custom built for [Spatie](https://spatie.be) projects and is therefore not registered on npm.
-In order to install it via npm you have to go through our registry:
+In order to install it via yarn you have to go through our registry in your `.yarnrc` file
 
-```bash
-npm set registry https://npm.spatie.be
-npm set ca null
+```txt
+registry https://npm.spatie.be
 ```
+Add it to the project via
 
-Or you can require the package straight from GitHub:
-
-```bash
-npm install spatie-custom/blender.css
+```cli
+yarn add blender-css
 ```
 
 ## Usage
@@ -27,7 +25,7 @@ Include one or more files in your back.scss, and build with *webpack* afterwards
 ``` SCSS
 @charset 'UTF-8';
 
-@import 'blender.css/dist/blender';
+@import 'blender-css/dist/blender';
 ```
 
 ## Change log
