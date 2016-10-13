@@ -7,7 +7,7 @@ These are the CSS files used by Blender CMS.
 ## Installation
 
 This package is custom built for [Spatie](https://spatie.be) projects and is therefore not registered on npm.
-In order to install it via yarn you have to go through our registry in your `.yarnrc` file
+In order to install it via *Yarn* you have to go through our registry in your `.yarnrc` file
 
 ```txt
 registry https://npm.spatie.be
@@ -20,7 +20,7 @@ yarn add blender-css
 
 ## Usage
 
-Include one or more files in your back.scss, and build with *webpack* afterwards.
+Include one or more files in your `back.scss`, and build with *Webpack* afterwards.
 
 ``` SCSS
 @charset 'UTF-8';
