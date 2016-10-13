@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 1.0.0 - 2016-10-13
+- Initial release
+
 ## 0.0.3 - 2016-10-13
 
 ### Added
