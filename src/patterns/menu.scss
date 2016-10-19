@@ -123,7 +123,7 @@
     font-size: font-size(s);
 
     @include mq(m) {
-        margin: 0 -4vw;
+        margin: 0 -2em;
     }
 }
 

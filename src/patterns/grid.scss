@@ -18,7 +18,7 @@
 .grid {
     @include container();
 
-    padding: 0 4vw;
+    padding: 0 2em;
 
 
     &.-full-page {

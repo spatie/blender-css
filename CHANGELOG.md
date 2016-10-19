@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 1.1.2 - 2016-10-19
+- Simpler footer
+
 ## 1.1.1 - 2016-10-19
 - Better tabs alignment
 

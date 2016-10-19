@@ -1,7 +1,8 @@
 .footer {
     margin-top: 5em;
     padding: 2em 0;
-    //background-color: color($gray,lightest);
+    background: color($gray, lightest);
+    color: color($gray, dark);
 
     @include mq(s) {
         text-align: center;
@@ -21,8 +22,7 @@
 
 .footer__border {
     padding: .5em 0;
-
-    border-top: solid 2px color($gray, dark);
+    //border-top: solid 2px color($gray, dark);
 }
 
 .footer__status {
@@ -60,6 +60,10 @@
 
     font-size: font-size(s);
     text-align: left;
+
+    @include mq(s) {
+        float: none;
+    }
 }
 
 .footer__colofon {
@@ -67,6 +71,10 @@
 
     font-size: font-size(s);
     text-align: center;
+
+    @include mq(s) {
+        float: none;
+    }
 }
 
 .footer__brand {
