@@ -2,6 +2,10 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 1.1.0 - 2016-10-19
+- Add back breadcrumb
+- Better status alignment in titles
+
 ## 1.0.0 - 2016-10-13
 - Initial release
 

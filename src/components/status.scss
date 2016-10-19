@@ -4,6 +4,9 @@
 
     font-size: font-size(xxs);
 
+    margin-left: .5rem;
+    margin-right: .5rem;
+
     &.-on {
         color: color($green);
     }
@@ -12,11 +15,16 @@
         color: color($gray);
     }
 
-    &.-space-left {
-        margin-left: .5rem;
+    &:first-child {
+        margin-left: 0;
     }
 
-    &.-space-right {
-        margin-right: .5rem;
+    &:last-child {
+        margin-right: 0;
+    }
+
+    h1 & {
+        @include position-center-vertical;
+        left: -1.5em;
     }
 }
