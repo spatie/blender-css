@@ -43,7 +43,7 @@ form {
 
 fieldset {
     min-width: 0;
-    margin: .75em -.75em;
+    margin: .75em 0;
     padding: .75em;
 
     background: lighten(color($gray, lightest) , 1%);
