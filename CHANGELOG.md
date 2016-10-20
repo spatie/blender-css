@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 1.1.3 - 2016-10-20
+- Added `remark` variation to `table`
+
 ## 1.1.2 - 2016-10-19
 - Simpler footer
 
