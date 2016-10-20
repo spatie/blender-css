@@ -48,3 +48,7 @@
 @function border-radius($key: 'm') {
     @return mapping($border-radius, $key);
 }
+
+@function margins($key: 'default') {
+    @return mapping($margins, $key);
+}

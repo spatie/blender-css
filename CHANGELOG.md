@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 1.2.0 - 2016-10-20
+- Added margin & padding helpers
+
 ## 1.1.3 - 2016-10-20
 - Added `remark` variation to `table`
 
