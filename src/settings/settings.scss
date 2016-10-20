@@ -11,6 +11,16 @@ $susy: (
         global-box-sizing: border-box,
         last-flow: to,
 );
+
+$margins: (
+    xs: .5rem,
+    s: 1rem,
+    default: 2rem,
+    m: 4rem,
+    l: 8rem,
+    xl: 16rem
+);
+
 $breakpoints: (
         s: (max-width: 640px),
         m: (max-width: 960px),
@@ -19,6 +29,7 @@ $breakpoints: (
         m-v: (max-height: 960px),
         l-v: (max-height: 1280px),
 );
+
 $z-indexes: (
         'modal': 5000,
         'toolbar': 2000,
@@ -27,6 +38,7 @@ $z-indexes: (
         'default': 1,
         'below': -1,
 );
+
 $border-radius: (
         s: 3px,
         m: 7px,
