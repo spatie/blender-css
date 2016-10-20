@@ -60,6 +60,11 @@ table.dataTable {
             &.-right {
                 text-align: right;
             }
+            &.-remark {
+                color: color($gray, dark);
+                font-size: font-size(xs);
+                font-style: italic,
+            }
         }
     }
 
