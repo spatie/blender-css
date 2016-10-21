@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 1.2.2 - 2016-10-21
+- Updated cursor for disabled buttons
+
 ## 1.2.1 - 2016-10-21
 - Added disabled state for buttons
 
