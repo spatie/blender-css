@@ -26,11 +26,10 @@
     top: -3em;
     left: 50%;
 
+    filter: sepia(1) hue-rotate(170deg) saturate(.5);
     opacity: .25;
 
     transform: translateX(-50%);
-
-    filter: sepia(1) hue-rotate(170deg) saturate(.5);
 }
 
 .v-auth__logo {

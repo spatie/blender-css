@@ -1,11 +1,10 @@
 .status {
     display: inline-block;
+    margin-right: .5rem;
+    margin-left: .5rem;
     vertical-align: middle;
 
     font-size: font-size(xxs);
-
-    margin-left: .5rem;
-    margin-right: .5rem;
 
     &.-on {
         color: color($green);
@@ -25,6 +24,7 @@
 
     h1 & {
         @include position-center-vertical;
+
         left: -1.5em;
     }
 }

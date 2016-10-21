@@ -62,8 +62,9 @@ table.dataTable {
             }
             &.-remark {
                 color: color($gray, dark);
+
                 font-size: font-size(xs);
-                font-style: italic,
+                font-style: italic,;
             }
         }
     }

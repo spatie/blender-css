@@ -593,13 +593,12 @@
     /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(73%, #f4f8fa));
     border: 1px solid #d7d8da;
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f4f8fa',GradientType=0 );
 
     font-family: 'museo-sans', 'Book Antiqua', sans-serif;
     font-size: 12px;
     font-weight: 300;
-    /* W3C */
-
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f4f8fa',GradientType=0 );
     /* IE6-9 */
 }
 .xdsoft_datetimepicker .blue-gradient-button:hover,
@@ -619,7 +618,6 @@
     /* IE10+ */
     background:         linear-gradient(to bottom, #f4f8fa 0%, #fff 73%);
     /* W3C */
-
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f8fa', endColorstr='#FFF',GradientType=0 );
     /* IE6-9 */
 }

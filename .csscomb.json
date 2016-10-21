@@ -127,6 +127,7 @@
             "border-image-width",
             "border-spacing",
             "box-shadow",
+            "filter",
             "opacity",
             "outline",
             "outline-width",

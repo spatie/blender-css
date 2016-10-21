@@ -4,9 +4,10 @@
 }
 
 .breadcrumb--back {
-    font-size: font-size(xs);
     display: inline-block;
     margin-right: 1em;
+
+    font-size: font-size(xs);
 
     &:before {
         content: '\f104'; //angle-right
@@ -16,8 +17,8 @@
         left: -1em;
 
         color: color($gray);
-        opacity: .5;
         border-bottom: none;
+        opacity: .5;
 
         font-family: font-family(icons);
     }
@@ -27,6 +28,7 @@
     @include ul-horizontal;
 
     color: color($gray);
+
     font-size: font-size(xs);
     list-style: none;
 

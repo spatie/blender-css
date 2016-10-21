@@ -1,8 +1,9 @@
 .footer {
     margin-top: 5em;
     padding: 2em 0;
-    background: color($gray, lightest);
+
     color: color($gray, dark);
+    background: color($gray, lightest);
 
     @include mq(s) {
         text-align: center;
