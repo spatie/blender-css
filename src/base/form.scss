@@ -96,15 +96,16 @@ label {
 .legend_lang,
 .label_lang {
     display: inline-block;
-    width: 2em;
+    min-width: 2em;
     height: 2em;
     margin: 0 .35em;
+    padding: 0 3px;
     vertical-align: top;
 
     color: color($green, dark);
     background: $white;
     border: solid 1px color($gray, light);
-    border-radius: 100%;
+    border-radius: 1em;
     box-shadow: 0 3px rgba($black, .075);
 
     font-size: font-size(xs);

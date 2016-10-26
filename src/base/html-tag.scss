@@ -16,6 +16,10 @@ body {
     @include antialiasing(subpixel);
     @include font(sans, normal);
 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
     color: $text-color;
 
     line-height: $line-height;
