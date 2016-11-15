@@ -23,19 +23,16 @@
     }
 }
 
-.menu__circle {
+.menu__home__dashboard__icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: .15em;
+    vertical-align: middle;
+
+    background-image: url('/favicon-32x32.png');
     background-repeat: no-repeat;
     background-size: contain;
-
-    &.-front {
-        display: inline-block;
-        width: 1.5rem;
-        height: 1.5rem;
-        margin-right: .15em;
-        vertical-align: middle;
-
-        background-image: url('/favicon-32x32.png');
-    }
 }
 
 .menu__log-out {
