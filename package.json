@@ -1,6 +1,6 @@
 {
   "name": "blender-css",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     "Willem Van Bockstal <willem@spatie.be>"
   ],
@@ -17,6 +17,7 @@
     "autoprefixer": "^6.5.0",
     "babel-core": "^6.17.0",
     "babel-preset-es2015": "^6.16.0",
+    "blender-media": "^3.0.4",
     "datatables": "^1.10.12",
     "extract-text-webpack-plugin": "^1.0.1",
     "import-glob-loader": "^1.1.0",

@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 2.0.1 - 2016-11-17
+- Blender media dependency
+
 ## 2.0.0 - 2016-11-15
 - Change front favicon size and class name
 
