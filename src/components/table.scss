@@ -34,6 +34,9 @@ table.dataTable {
             &.-added:nth-child(even) {
                 background: lighten(color($green, lightest), 3%) !important;
             }
+            &.-is-disabled {
+                background: color($red, lightest);
+            }
         }
 
         tr:last-child td {
