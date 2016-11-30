@@ -120,6 +120,25 @@
   top: 0;
   box-shadow: none; }
 
+.media__button--debug {
+  font-size: .8em;
+  height: 2em;
+  margin: 0;
+  margin-left: .5em;
+  padding: 0;
+  cursor: pointer;
+  color: #e46e6c;
+  border: 0;
+  background: none;
+  box-shadow: none; }
+
+.media__button--debug:focus {
+  outline: 0; }
+
+.media__button--debug:active {
+  top: 0;
+  box-shadow: none; }
+
 .media__editor {
   display: -webkit-box;
   display: -ms-flexbox;
