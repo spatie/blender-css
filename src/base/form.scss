@@ -162,10 +162,6 @@ input[disabled] {
 
     -webkit-opacity: 1;
     -webkit-text-fill-color: $text-color;
-
-    label + & {
-        margin-top: -.75em; // compensate for label bottom padding
-    }
 }
 
 input[type='text'] {
