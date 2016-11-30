@@ -2,8 +2,15 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 2.0.5
+- `-is-disabled` class for table rows
+- Changed red lightest
+
 ## 2.0.4 - 2016-11-30
 - Remove exception for disabled label
+
+## 2.0.3 - 2016-11-30
+- Regenerate dist for media updates 
 
 ## 2.0.2 - 2016-11-17
 - Blender media update
