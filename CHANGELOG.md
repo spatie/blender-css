@@ -2,7 +2,7 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
-## 2.0.5
+## 2.0.6
 - `-is-disabled` class for table rows
 - Changed red lightest
 
