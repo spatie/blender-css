@@ -21,7 +21,7 @@ Include the package in your `back.scss`, and build with *Webpack* afterwards.
 ``` SCSS
 @charset 'UTF-8';
 
-@import '~blender-css/dist/blender';
+@import '~@spatie/blender-css/dist/blender';
 ```
 
 ## Change log
