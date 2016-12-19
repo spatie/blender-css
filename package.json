@@ -1,10 +1,11 @@
 {
-  "name": "blender-css",
+  "name": "@spatie/blender-css",
   "version": "3.0.0",
   "authors": [
     "Willem Van Bockstal <willem@spatie.be>"
   ],
   "license": "MIT",
+  "main": "dist/blender.css",
   "repository": {
     "type": "git",
     "url": "git@github.com:spatie-custom/blender-css.git"

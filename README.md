@@ -6,13 +6,9 @@ These are the CSS files used by Blender CMS.
 
 ## Installation
 
-This package is custom built for [Spatie](https://spatie.be) projects and is therefore not registered on npm.
-In order to install it via *Yarn* you have to go through our registry in your `.yarnrc` file
+This package is built for [Blender CMS](https://github.com/spatie-custom/blender) projects.
 
-```txt
-registry https://npm.spatie.be
-```
-Add it to the project via
+Add it to the Laravel project via *Yarn*.
 
 ```cli
 yarn add blender-css
@@ -20,12 +16,12 @@ yarn add blender-css
 
 ## Usage
 
-Include one or more files in your `back.scss`, and build with *Webpack* afterwards.
+Include the package in your `back.scss`, and build with *Webpack* afterwards.
 
 ``` SCSS
 @charset 'UTF-8';
 
-@import 'blender-css/dist/blender';
+@import '~blender-css/dist/blender';
 ```
 
 ## Change log

@@ -3,6 +3,7 @@
 All Notable changes to `blender-css` will be documented in this file
 
 ## 3.0.0 - 2016-12-19
+- Scoped name
 - Include media & module css
 - Redactor stickyness
 - Small improvements
