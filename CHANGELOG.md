@@ -2,6 +2,11 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 3.0.0 - 2016-12-19
+- Include media & module css
+- Redactor stickyness
+- Small improvements
+
 ## 2.0.4 - 2016-11-30
 - Remove exception for disabled label
 

@@ -52,3 +52,7 @@
 @function margins($key: 'default') {
     @return mapping($margins, $key);
 }
+
+@function module($key) {
+    @return mapping($module, $key);
+}

@@ -29,7 +29,7 @@ form {
         margin: .75em 0;
         padding: .75em;
 
-        background: lighten(color($gray, lightest) , 1%);
+        background: $white-off;
     }
 }
 
@@ -46,7 +46,7 @@ fieldset {
     margin: .75em 0;
     padding: .75em;
 
-    background: lighten(color($gray, lightest) , 1%);
+    background: $white-off;
     border: 0;
 
     //variations
@@ -66,7 +66,7 @@ legend {
     padding: .5em 1em;
 
     color: color($gray);
-    background: lighten(color($gray, lightest) , 1%);
+    background: $white-off;
     border-radius: 3px;
 
     font-size: font-size(xs);
@@ -77,7 +77,7 @@ legend {
 
 
 label {
-    color: color($gray);
+    color: color($gray, dark);
 
     font-size: font-size(default);
 
@@ -156,12 +156,15 @@ textarea {
     }
 }
 
+textarea[disabled],
 input[disabled] {
     color: $text-color;
     box-shadow: none;
 
-    -webkit-opacity: 1;
     -webkit-text-fill-color: $text-color;
+    -webkit-opacity: .5;
+    opacity: .5;
+    mix-blend-mode: multiply;
 }
 
 input[type='text'] {

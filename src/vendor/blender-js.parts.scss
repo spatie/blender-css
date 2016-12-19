@@ -5,7 +5,7 @@
 
     margin: 4em 0 2em 0;
 
-    background: lighten(color($gray, lightest) , 1%);
+    background: $white-off;
     border: solid 2px color($gray, light);
     border-radius: border-radius(s);
     box-shadow: 0 3px rgba(34, 34, 34, .05);
