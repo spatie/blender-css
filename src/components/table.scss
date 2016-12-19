@@ -35,7 +35,7 @@ table.dataTable {
                 background: lighten(color($green, lightest), 3%) !important;
             }
             &.-is-disabled {
-                background: color($red, lightest);
+                background: color($red, lightest) !important;
             }
         }
 

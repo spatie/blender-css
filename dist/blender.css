@@ -2630,7 +2630,7 @@ table.dataTable {
     background: #d7eeea !important; }
   table tbody tr.-is-disabled,
   table.dataTable tbody tr.-is-disabled {
-    background: #ffe9e2; }
+    background: #ffe9e2 !important; }
   table tbody tr:last-child td,
   table.dataTable tbody tr:last-child td {
     border-bottom-color: #d8d8da; }
