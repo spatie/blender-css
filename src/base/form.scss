@@ -115,6 +115,12 @@ label {
     text-transform: uppercase;
 }
 
+.label_lang {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: z-index(above);
+}
 
 //standard controls
 input[type='text'],

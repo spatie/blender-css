@@ -2008,6 +2008,12 @@ label {
   text-align: center;
   text-transform: uppercase; }
 
+.label_lang {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+
 input[type='text'],
 input[type='password'],
 input[type='email'],
