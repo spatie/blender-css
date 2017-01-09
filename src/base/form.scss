@@ -116,10 +116,13 @@ label {
 }
 
 .label_lang {
-    position: absolute !important;
-    top: 0;
+    top: -.25rem;
     left: 0;
     z-index: z-index(above);
+
+    // `important` is required to overwrite relative 
+    // positioning in blender-media
+    position: absolute !important;
 }
 
 //standard controls

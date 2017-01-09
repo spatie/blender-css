@@ -12,6 +12,10 @@
       flex-grow: 1;
     }
   }
+
+  &.-padded {
+    padding: .75rem .5rem;
+  }
 }
 
 .module__editor__column {
