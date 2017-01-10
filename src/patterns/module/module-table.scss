@@ -2,13 +2,13 @@
     width: 100%;
     margin: 0;
 
-    border-collapse: collapse;
     background-color: transparent;
+    border-collapse: collapse;
 }
 
 .module__row {
-    border-bottom: 2px solid color($gray, lighter, .5) !important;
     background-color: transparent !important;
+    border-bottom: 2px solid color($gray, lighter, .5) !important;
 
     &.-is-disabled {
         background-color: color($red, lightest) !important;
@@ -39,15 +39,15 @@
 
 .module__column--drag {
     padding: .5em;
+    vertical-align: middle;
 
     text-align: center;
-    vertical-align: middle;
 }
 
 .module__column--drag__icon {
-    cursor: grab;
-
     color: color($gray, light);
+
+    cursor: grab;
 
     .gu-mirror &,
     &:hover {
@@ -62,20 +62,17 @@
     &.-is-disabled {
         visibility: hidden;
     }
-
 }
 
 .module__column--thumb {
     width: module(thumb-width);
     padding: .5em 0;
-
     vertical-align: middle;
 }
 
 .module__column--editor {
     width: 100%;
     padding: 0 .5em;
-
     vertical-align: middle;
 
     &.-active {
@@ -88,35 +85,32 @@
         }
 
         .module__column--editor__close {
-            text-align: right;
-            margin-right: -1em;
-            padding-top: .5em;
+            position: sticky;
             top: 0;
             right: 0;
-            position: sticky;
-        }
+            margin-right: -1em;
+            padding-top: .5em;
 
+            text-align: right;
+        }
     }
 }
 
 .module__column--actions {
     padding: 0 1em;
+    vertical-align: middle;
 
     text-align: right;
-    vertical-align: middle;
 }
 
 .module__column__icon {
     display: inline-block;
-
     width: 1em;
 
+    color: color($gray, default, .5);
     border: 0;
 
-    color: color($gray, default, .5);
-
     &.-delete {
-
         &:hover {
             color: color($red);
         }

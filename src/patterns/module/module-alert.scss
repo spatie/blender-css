@@ -1,25 +1,25 @@
 .module__alert {
-  margin: 1em;
-  padding: 1em;
     display: flex;
     align-items: center;
+    margin: 1em;
+    padding: 1em;
 
-  color: color($gray, dark);
-  border-radius: 3px;
-  background: rgba(black, .05);
+    color: color($gray, dark);
+    background: rgba(black, .05);
+    border-radius: 3px;
 
-  &.-error {
-    color: color($red);
-    background: color($red, lightest);
-  }
+    &.-error {
+        color: color($red);
+        background: color($red, lightest);
+    }
 }
 
 .module__alert__message {
-  padding: .5em 0;
-  flex-grow: 1;
+    flex-grow: 1;
+    padding: .5em 0;
 }
 
 .module__alert__delete {
-  color: inherit;
-  border: 0;
+    color: inherit;
+    border: 0;
 }

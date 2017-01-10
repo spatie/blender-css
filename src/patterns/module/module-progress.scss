@@ -1,31 +1,29 @@
 .module__progress {
-  @extend .progress;
+    @extend .progress;
 
-  border-radius: 3px !important;
+    border-radius: 3px !important;
 }
 
 .module__progress__bar {
-  position: absolute !important;
-  top: 0;
-  left: 0;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2em;
 
-  width: 100%;
-  height: 2em;
+    background-color: color($green);
+    box-shadow: inset 0 2px rgba(color($gray), .15);
 
-  transition: transform .5s linear;
-
-  background-color: color($green);
-  box-shadow: inset 0 2px rgba(color($gray), .15);
+    transition: transform .5s linear;
 }
 
 .module__progress__name {
-  line-height: 2em;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 .65em;
+    z-index: 2;
 
-  position: absolute !important;
-  z-index: 2;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  padding: 0 .65em;
+    line-height: 2em;
 }

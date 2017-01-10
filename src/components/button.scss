@@ -77,3 +77,16 @@ button,
         margin-left: .5em;
     }
 }
+
+.button--delete-row {
+    @extend .button.-small;
+
+    color: color($gray, default, .5);
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+
+    &:hover {
+        color: color($red);
+    }
+}

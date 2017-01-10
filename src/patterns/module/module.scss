@@ -1,11 +1,11 @@
 .module {
-    background: $white-off;
     padding: 1em 0;
 
-    & * {
-        position: relative;
+    background: $white-off;
 
+    & * {
         box-sizing: border-box;
+        position: relative;
     }
 
     & :before,

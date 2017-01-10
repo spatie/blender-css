@@ -116,13 +116,12 @@ label {
 }
 
 .label_lang {
-    top: -.25rem;
-    left: 0;
-    z-index: z-index(above);
-
     // `important` is required to overwrite relative 
     // positioning in blender-media
     position: absolute !important;
+    top: -.25rem;
+    left: 0;
+    z-index: z-index(above);
 }
 
 //standard controls
@@ -169,11 +168,11 @@ textarea[disabled],
 input[disabled] {
     color: $text-color;
     box-shadow: none;
+            opacity: .5;
 
-    -webkit-text-fill-color: $text-color;
-    -webkit-opacity: .5;
-    opacity: .5;
     mix-blend-mode: multiply;
+    -webkit-opacity: .5;
+    -webkit-text-fill-color: $text-color;
 }
 
 input[type='text'] {
