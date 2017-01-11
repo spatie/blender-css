@@ -93,14 +93,12 @@ label {
     }
 }
 
-.legend_lang,
-.label_lang {
+.lang-bubble {
+
     display: inline-block;
     min-width: 2em;
     height: 2em;
-    margin: 0 .35em;
     padding: 0 3px;
-    vertical-align: top;
 
     color: color($green, dark);
     background: $white;
@@ -115,13 +113,23 @@ label {
     text-transform: uppercase;
 }
 
-.label_lang {
-    // `important` is required to overwrite relative 
+.label--lang {
+    @extend .lang-bubble;
+
+    // `important` is required to overwrite relative
     // positioning in blender-media
     position: absolute !important;
     top: -.25rem;
     left: 0;
     z-index: z-index(above);
+}
+
+.legend__lang,
+.label__lang {
+    @extend .lang-bubble;
+
+    margin: 0 .35em;
+    vertical-align: top;
 }
 
 //standard controls
@@ -168,7 +176,7 @@ textarea[disabled],
 input[disabled] {
     color: $text-color;
     box-shadow: none;
-            opacity: .5;
+    opacity: .5;
 
     mix-blend-mode: multiply;
     -webkit-opacity: .5;
