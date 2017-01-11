@@ -1989,14 +1989,12 @@ label {
     display: block;
     padding-bottom: .5em; }
 
-.legend_lang,
-.label_lang {
+.lang-bubble, .label--lang, .legend__lang,
+.label__lang {
   display: inline-block;
   min-width: 2em;
   height: 2em;
-  margin: 0 .35em;
   padding: 0 3px;
-  vertical-align: top;
   color: #40988c;
   background: #fff;
   border: solid 1px #bbbbbe;
@@ -2008,11 +2006,16 @@ label {
   text-align: center;
   text-transform: uppercase; }
 
-.label_lang {
+.label--lang {
   position: absolute !important;
   top: -.25rem;
   left: 0;
   z-index: 10; }
+
+.legend__lang,
+.label__lang {
+  margin: 0 .35em;
+  vertical-align: top; }
 
 input[type='text'],
 input[type='password'],
