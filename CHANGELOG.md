@@ -2,7 +2,10 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
-## 3.1.0 - 2017-01-10
+## 3.1.1 - 2017-01-10
+- `.grid` in flexbox needs width
+
+## 3.1.0 - 2017-01-10`
 - Changed `label__lang`, `label--lang` for BEM conformity
 
 ## 3.0.3 - 2017-01-10
