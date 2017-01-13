@@ -18,6 +18,7 @@
 .grid {
     @include container();
     // When in flexbox parent, we need width
+
     width: 100%;
     padding: 0 2em;
 

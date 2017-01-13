@@ -32,6 +32,12 @@
         width: 100%;
     }
 
+    &.-tight {
+        width: 1%;
+
+        white-space: nowrap;
+    }
+
     &.-no-wrap {
         white-space: nowrap;
     }
@@ -97,10 +103,12 @@
 }
 
 .module__column--actions {
+    width: 1%;
     padding: 0 1em;
     vertical-align: middle;
 
     text-align: right;
+    white-space: nowrap;
 }
 
 .module__column__icon {

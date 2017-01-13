@@ -2088,8 +2088,9 @@ input[disabled] {
   -webkit-text-fill-color: #222; }
 
 input[type='date'],
+input[type='datetime'],
 input[type='text'].-datetime {
-  width: 8em; }
+  width: 8em !important; }
 
 input[type='search'] {
   padding: 0 1em; }

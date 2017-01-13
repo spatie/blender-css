@@ -94,7 +94,6 @@ label {
 }
 
 .lang-bubble {
-
     display: inline-block;
     min-width: 2em;
     height: 2em;
@@ -115,9 +114,9 @@ label {
 
 .label--lang {
     @extend .lang-bubble;
-
     // `important` is required to overwrite relative
     // positioning in blender-media
+
     position: absolute !important;
     top: -.25rem;
     left: 0;
@@ -176,7 +175,7 @@ textarea[disabled],
 input[disabled] {
     color: $text-color;
     box-shadow: none;
-    opacity: .5;
+            opacity: .5;
 
     mix-blend-mode: multiply;
     -webkit-opacity: .5;
