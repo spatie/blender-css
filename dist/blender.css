@@ -2087,8 +2087,8 @@ input[disabled] {
   -webkit-opacity: .5;
   -webkit-text-fill-color: #222; }
 
-input[type='text'].-datetime,
-form.-stacked input[type='text'].-datetime {
+input[type='date'],
+input[type='text'].-datetime {
   width: 8em; }
 
 input[type='search'] {

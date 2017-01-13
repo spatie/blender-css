@@ -184,8 +184,9 @@ input[disabled] {
 }
 
 input[type='date'],
+input[type='datetime'],
 input[type='text'].-datetime {
-   width: 8em;
+    width: 8em !important;
 }
 
 
