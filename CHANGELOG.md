@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 3.1.2 - 2017-01-10
+- `input[type=date]` width
+
 ## 3.1.1 - 2017-01-10
 - `.grid` in flexbox needs width
 

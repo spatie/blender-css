@@ -2872,13 +2872,13 @@ table.dataTable {
   max-width: 75em;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   padding: 0 2em; }
   .grid:after {
     content: " ";
     display: block;
     clear: both; }
   .grid.-full-page {
-    width: 100%;
     min-height: 100vh; }
 
 .grid__col.-width-1\/6 {

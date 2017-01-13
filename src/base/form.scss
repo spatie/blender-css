@@ -183,11 +183,9 @@ input[disabled] {
     -webkit-text-fill-color: $text-color;
 }
 
-input[type='text'] {
-    &.-datetime,
-    form.-stacked &.-datetime {
-        width: 8em;
-    }
+input[type='date'],
+input[type='text'].-datetime {
+   width: 8em;
 }
 
 
