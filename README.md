@@ -11,7 +11,7 @@ This package is built for [Blender CMS](https://github.com/spatie-custom/blender
 Add it to the Laravel project via *Yarn*.
 
 ```cli
-yarn add blender-css
+yarn add @spatie/blender-css
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Include the package in your `back.scss`, and build with *Webpack* afterwards.
 ``` SCSS
 @charset 'UTF-8';
 
-@import '~@spatie/blender-css/dist/blender';
+@import '@spatie/blender-css/dist/blender';
 ```
 
 ## Change log
