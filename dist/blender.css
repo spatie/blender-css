@@ -3283,6 +3283,9 @@ table.dataTable {
   padding: .5em; }
   .module__column.-stretch {
     width: 100%; }
+  .module__column.-tight {
+    width: 1%;
+    white-space: nowrap; }
   .module__column.-no-wrap {
     white-space: nowrap; }
 
@@ -3329,9 +3332,11 @@ table.dataTable {
       text-align: right; }
 
 .module__column--actions, .media__column--actions {
+  width: 1%;
   padding: 0 1em;
   vertical-align: middle;
-  text-align: right; }
+  text-align: right;
+  white-space: nowrap; }
 
 .module__column__icon, .media__column--actions__icon {
   display: inline-block;

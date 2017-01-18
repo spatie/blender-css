@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 3.1.5 - 2017-01-13
+- Add `display: block` on `.chart`
+
 ## 3.1.4 - 2017-01-13
 - Add `module__column.-tight`
 
