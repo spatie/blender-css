@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 4.0.0 - 2017-01-27
+- Change the classes for `alert` variations — following @spatie/scss naming
+
 ## 3.1.5 - 2017-01-13
 - Add `display: block` on `.chart`
 

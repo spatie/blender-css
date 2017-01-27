@@ -40,31 +40,6 @@
         border-left-color: $white;
     }
 
-    &.-warning {
-        color: color($orange);
-        background: color($orange,lightest);
-        border-left-color: color($orange);
-    }
-
-    &.-danger,
-    &.-error {
-        color: color($red,dark);
-        background: color($red, lightest);
-        border-left-color: color($red,dark);
-    }
-
-    &.-success {
-        color: color($green, dark);
-        background: color($green, lightest);
-        border-left-color: color($green, dark);
-    }
-
-    &.-info {
-        color: color($blue);
-        background: color($blue, lightest);
-        border-left-color: color($blue);
-    }
-
     .form & {
         margin: .5em 0;
         padding: .65em 1em;
@@ -84,4 +59,37 @@
 
         text-align: center;
     }
+}
+
+.alert--warning {
+    @extend .alert;
+
+    color: color($orange);
+    background: color($orange,lightest);
+    border-left-color: color($orange);
+}
+
+.alert--danger,
+.alert--error {
+    @extend .alert;
+
+    color: color($red,dark);
+    background: color($red, lightest);
+    border-left-color: color($red,dark);
+}
+
+.alert--success {
+    @extend .alert;
+
+    color: color($green, dark);
+    background: color($green, lightest);
+    border-left-color: color($green, dark);
+}
+
+.alert--info {
+    @extend .alert;
+
+    color: color($blue);
+    background: color($blue, lightest);
+    border-left-color: color($blue);
 }
