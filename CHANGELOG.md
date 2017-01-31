@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 4.0.2 - 2017-01-31
+- Update demo page
+
 ## 4.0.1 - 2017-01-31
 - Change `v-auth` centering from transform to flex
 
