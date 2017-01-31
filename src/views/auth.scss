@@ -1,14 +1,20 @@
 .v-auth {
     @include background-image-tinted('/images/auth-background.jpg' , rgba($white, .9), top center);
 
+    display: flex;
+    align-items: center;
     min-height: 100vh;
 
     color: $text-color;
+
+    justify-content: space-around;
+
+    @include mq(s) {
+        display: block;
+    }
 }
 
 .v-auth__card {
-    @include position-center;
-
     width: 50vw;
 
     @include mq(s) {
@@ -16,8 +22,6 @@
         top: 2em;
         left: 5vw;
         width: 90vw;
-
-        transform: none;
     }
 }
 
@@ -51,7 +55,7 @@
     text-transform: uppercase;
 
     @include mq(s) {
-        font-size: 8vw;
+        font-size: 6vw;
     }
 
     &.-small {

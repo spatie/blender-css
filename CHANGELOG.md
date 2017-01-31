@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 4.0.1 - 2017-01-31
+- Change `v-auth` centering from transform to flex
+
 ## 4.0.0 - 2017-01-27
 - Change the classes for `alert` variations — following @spatie/scss naming
 
