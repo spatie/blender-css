@@ -2565,10 +2565,10 @@ button,
     color: #e83134; }
 
 .chart {
+  display: block;
   width: 100%;
   height: auto;
-  margin-bottom: 2em;
-  display: block; }
+  margin-bottom: 2em; }
 
 .chart__legend {
   width: auto;
@@ -6407,24 +6407,28 @@ table.dataTable thead .sorting_asc {
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/images/auth-background.jpg");
   background-position: top center;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 100vh;
-  color: #222; }
+  color: #222;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  @media (max-width: 640px) {
+    .v-auth {
+      display: block; } }
 
 .v-auth__card {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
   width: 50vw; }
   @media (max-width: 640px) {
     .v-auth__card {
       position: relative;
       top: 2em;
       left: 5vw;
-      width: 90vw;
-      -webkit-transform: none;
-              transform: none; } }
+      width: 90vw; } }
 
 .v-auth__gravatar {
   position: absolute;
@@ -6453,7 +6457,7 @@ table.dataTable thead .sorting_asc {
   text-transform: uppercase; }
   @media (max-width: 640px) {
     .v-auth__title {
-      font-size: 8vw; } }
+      font-size: 6vw; } }
   .v-auth__title.-small {
     max-width: none; }
 
