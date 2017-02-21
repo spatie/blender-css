@@ -93,6 +93,12 @@ label {
     }
 }
 
+.label--required {
+    &:after {
+        content: '*';
+    }
+}
+
 .lang-bubble {
     display: inline-block;
     min-width: 2em;
@@ -119,7 +125,7 @@ label {
 
     position: absolute !important;
     top: -.25rem;
-    left: 0;
+    left: .35em;
     z-index: z-index(above);
 }
 

@@ -1990,6 +1990,9 @@ label {
     display: block;
     padding-bottom: .5em; }
 
+.label--required:after {
+  content: '*'; }
+
 .lang-bubble, .label--lang, .legend__lang,
 .label__lang {
   display: inline-block;
@@ -2010,7 +2013,7 @@ label {
 .label--lang {
   position: absolute !important;
   top: -.25rem;
-  left: 0;
+  left: .35em;
   z-index: 10; }
 
 .legend__lang,

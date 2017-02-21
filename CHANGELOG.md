@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 4.0.3 - 2017-01-31
+- Add `label--required`
+
 ## 4.0.2 - 2017-01-31
 - Update demo page
 
