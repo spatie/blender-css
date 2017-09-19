@@ -2,6 +2,9 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
+## 5.0.0 - 2017-09-19
+- Update styles for Redactor II v2.10
+
 ## 4.0.3 - 2017-01-31
 - Add `label--required`
 
