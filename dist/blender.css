@@ -6586,8 +6586,8 @@ table.dataTable thead .sorting_asc {
   position: relative;
   display: inline-block;
   max-width: 100%;
-  outline: 3px solid #1f78d8;
-  box-shadow: 0 0 12px #1f78d8;
+  outline: 3px solid #73c7de;
+  box-shadow: 0 0 12px #73c7de;
   line-height: 0; }
 
 #redactor-image-editter {
@@ -7834,8 +7834,8 @@ table.dataTable thead .sorting_asc {
   position: relative;
   display: inline-block;
   max-width: 100%;
-  outline: 3px solid #1f78d8;
-  box-shadow: 0 0 12px #1f78d8;
+  outline: 3px solid #73c7de;
+  box-shadow: 0 0 12px #73c7de;
   line-height: 0; }
 
 #redactor-image-editter {
