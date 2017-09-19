@@ -2,7 +2,7 @@
 
 All Notable changes to `blender-css` will be documented in this file
 
-## 5.0.1 - 2017-09-19
+## 5.0.2 - 2017-09-19
 - Change Redactor selected image color
 
 ## 5.0.0 - 2017-09-19

@@ -359,8 +359,8 @@
 	position: relative;
 	display: inline-block;
 	max-width: 100%;
-	outline: 3px solid rgba(31,120,216,1);
-	box-shadow: 0 0 12px rgba(31,120,216,1);
+	outline: 3px solid color($blue, light);
+	box-shadow: 0 0 12px color($blue, light);
 	line-height: 0;
 }
 #redactor-image-editter {
