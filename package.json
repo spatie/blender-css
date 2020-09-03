@@ -22,7 +22,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "import-glob-loader": "^1.1.0",
     "jquery-confirm": "^1.5.1",
-    "node-sass": "^3.10.1",
+    "node-sass": "^4.14.1",
     "normalize-css": "^2.3.1",
     "path": "^0.12.7",
     "postcss-loader": "^0.13.0",
