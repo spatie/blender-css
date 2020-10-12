@@ -6,7 +6,7 @@ These are the CSS files used by Blender CMS.
 
 ## Support us
 
-[![Image](https://github-ads.s3.eu-central-1.amazonaws.com/blender-css.jpg)](https://spatie.be/github-ad-click/blender-css)
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/blender-css.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/blender-css)
 
 We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
